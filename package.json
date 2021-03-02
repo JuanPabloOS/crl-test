@@ -11,10 +11,7 @@
   "engines": {
     "node": ">=10"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuanPabloOS/crl-test.git"
-  },
+  "repository": "JuanPabloOS/crl-test",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
