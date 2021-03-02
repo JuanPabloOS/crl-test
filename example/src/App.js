@@ -1,10 +1,16 @@
 import React from 'react'
 
-import { ExampleComponent } from 'crl-test'
+import { Button } from 'crl-test'
 import 'crl-test/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button label='submit' />
+      <Button label='submit' size='large' />
+      <Button label='submit' size='small' />
+    </>
+  )
 }
 
 export default App
